@@ -1,10 +1,9 @@
-import Image from "next/image";
-import banner from '@/assets/images/banner_image.jpeg'
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <div>
-      <Image src={banner} alt="Banner" />
+      <Navbar />
     </div>
   );
 }
