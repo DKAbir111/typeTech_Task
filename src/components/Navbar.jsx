@@ -1,10 +1,16 @@
+import Button from "./Button"
+import { FaAngleDown } from "react-icons/fa6";
 export default function Navbar() {
     const links = <>
-        <li><a>Item 1</a></li>
-        <li><a>Item 3</a></li>
+        <li><a>Home</a></li>
+        <li><a>About</a></li>
+        <li><a>Properties</a></li>
+        <li><a>Neighborhood</a></li>
+        <li><a>Blogs</a></li>
+        <li><a>Contact</a></li>
     </>
     return (
-        <div className="navbar fixed">
+        <div className="navbar fixed text-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -32,14 +38,14 @@ export default function Navbar() {
                 <a className="text-2xl font-bold">TypeTech</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 text-white font-semibold">
                     {
                         links
                     }
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <Button text="ES" background={'#ff5a3d'} icon={<FaAngleDown />} color={'white'} />
             </div>
         </div>
     )
