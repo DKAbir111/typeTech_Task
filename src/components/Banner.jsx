@@ -1,13 +1,14 @@
 export default function Banner() {
     return (
         <div
-            className="hero min-h-screen"
+            className="hero min-h-screen mb-20"
             style={{
                 backgroundImage: `url('/banner_image.jpeg')`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}
         >
+            <div className="hero-overlay bg-opacity-50 bg-black"></div>
 
             <div className="hero-content text-white text-center">
                 <div className="max-w-4xl">

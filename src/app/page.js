@@ -1,4 +1,5 @@
-import Banner from "@/components/Banner";
+import Country from "@/components/Country";
+import Banner from "../components/Banner";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Banner />
+      <Country />
     </div>
   );
 }
