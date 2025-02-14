@@ -5,11 +5,13 @@ import Location from "@/components/Location";
 
 export default function Home() {
   return (
-    <div>
+    <div className="pb-20">
       <Navbar />
       <Banner />
-      <Country />
+      <Country name={'Broward County'} />
       <Location />
+      <Country name={'Broward County'} />
+      <Country name={'Monroe County'} />
     </div>
   );
 }
