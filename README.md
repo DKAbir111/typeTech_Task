@@ -2,6 +2,7 @@
 
 This is a simple real estate homepage developed using Next.js, Tailwind CSS, DaisyUI, and MongoDB. The project is built as part of the assessment for the Junior Front-End Developer position at Typetech IT.
 
+## Live Link: https://typetech.vercel.app/
 ## 🚀 Technologies Used
 
 - **Next.js** - React framework for server-side rendering and static site generation.
