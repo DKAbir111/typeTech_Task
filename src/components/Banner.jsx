@@ -12,7 +12,7 @@ export default function Banner() {
 
             <div className="hero-content text-white text-center">
                 <div className="max-w-4xl">
-                    <h1 className="mb-5 text-7xl font-extrabold">Miami Real Estate
+                    <h1 className="mb-5 text-5xl md:text-7xl font-extrabold">Miami Real Estate
                         Specialists</h1>
                     <p className="mb-5">
                         your specialists in residential and commercial properties. From dream homes to prime business spaces, trust our unique expertise to guide you in Miami/South Florida's dynamic market.
