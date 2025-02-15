@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Real Estate Homepage
 
-## Getting Started
+This is a simple real estate homepage developed using Next.js, Tailwind CSS, DaisyUI, and MongoDB. The project is built as part of the assessment for the Junior Front-End Developer position at Typetech IT.
 
-First, run the development server:
+## 🚀 Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Next.js** - React framework for server-side rendering and static site generation.
+- **Tailwind CSS** - Utility-first CSS framework for styling.
+- **DaisyUI** - Component library built on top of Tailwind CSS.
+- **MongoDB** - NoSQL database used for managing data.
+
+## 📌 Features
+
+- Fully responsive design
+- Modern UI with DaisyUI components
+- Data fetched from MongoDB using Next.js API routes
+- Optimized for performance and SEO with Next.js features
+
+## 📂 Project Structure
+
+```
+├── components/       # Reusable UI components
+├── pages/            # Next.js pages including API routes
+│   ├── index.js      # Homepage
+│   ├── api/         # API routes to fetch data from MongoDB
+├── public/           # Static assets
+├── styles/          # Global styles
+├── .env.local        # Environment variables (MongoDB connection, etc.)
+└── README.md         # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Installation & Setup
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/DKAbir111/typeTech_Task.git
+   cd typeTech_Task
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Install dependencies:**
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
 
-## Learn More
+3. **Set up environment variables:**
+   Create a `.env.local` file and add the required MongoDB connection string:
+   ```env
+   MONGODB_URI=your_mongodb_connection_string
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Run the development server:**
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   The application will be available at `http://localhost:3000`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Deployment
 
-## Deploy on Vercel
+To deploy the application, you can use Vercel:
+```sh
+vercel
+```
+Make sure to add the environment variables in your Vercel project settings.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub Repository: [TypeTech Task](https://github.com/DKAbir111/typeTech_Task.git)
+
+Happy Coding! 🎉
